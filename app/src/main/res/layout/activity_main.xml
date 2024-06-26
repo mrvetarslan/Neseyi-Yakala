@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Kalan Zaman : 15"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/skorText"
+        android:layout_width="269dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="45dp"
+        android:text="Skor : 0"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeText" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="380dp"
+        android:layout_height="396dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skorText">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="126dp"
+            android:layout_height="132dp"
+            android:onClick="skorArttir"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/nese" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="126dp"
+            android:layout_height="132dp"
+            android:onClick="skorArttir"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/nese" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="126dp"
+            android:layout_height="132dp"
+            android:onClick="skorArttir"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/nese" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="126dp"
+            android:layout_height="132dp"
+            android:onClick="skorArttir"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/nese" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="126dp"
+            android:layout_height="132dp"
+            android:onClick="skorArttir"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/nese" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="126dp"
+            android:layout_height="132dp"
+            android:onClick="skorArttir"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/nese" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="126dp"
+            android:layout_height="132dp"
+            android:onClick="skorArttir"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/nese" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="126dp"
+            android:layout_height="132dp"
+            android:onClick="skorArttir"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/nese" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="126dp"
+            android:layout_height="132dp"
+            android:onClick="skorArttir"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/nese" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
